@@ -1,22 +1,24 @@
 
 var result = document.getElementById("result");
 
-function getNumber(num){
+function getNumber(num) {
     result.value += num;
 }
 
-function clearResult(){
+function clearResult() {
     result.value = "";
 }
 
-function getResult(){
+function getResult() {
+
+
     result.value = eval(result.value);
 
-    
+
 
 }
 
-function deletNum(){
-    
-    result.value = result.value.slice(0,-1)
+function deletNum() {
+
+    result.value = result.value.slice(0, -1)
 }
